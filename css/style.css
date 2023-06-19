@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.header {
+    background: #3E8989;
+    padding: 32px 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__menu{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.menu__item {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    padding-bottom: 5px;
+    border-radius: 2px solid transparent;
+}
+
+.menu__item:hover {
+    border-bottom:  2px solid #ffffff;
+}
+
+.search-bar {
+    height: 35px;
+    padding-left: 20px;
+    width: 216px;
+    border-radius: 20px 0px 0px 20px;
+    border: none;
+
+}
+
+.search-bar::placeholder {
+    color: #898989;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.search-button {
+    width: 74px;
+    height: 35px;
+    background: #295E5E;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 0px 20px 20px 0px;
+    padding: 9px 14px;
+    font-family: Rubik;
+    margin-left: -4px;
+}
+
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.banner {
+    background: url(../img/pic.jpg) no-repeat center/cover;
+    height: 800px;
+}
+
+.banner__wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.banner__p {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47px;
+    margin-bottom: 30px;
+}
+
+.banner__button {
+    padding: 14px 78px;
+    background: #B4436C;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    transition: .2s ease;
+}
+
+
+.aboutus__tittle {
+    color: #3E8989;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.aboutus__content {
+    display: flex;
+    gap: 20px;
+}
+
+.content__text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content__text1 {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.catalog__tittle {
+    color: #3E8989;
+    text-align: center;
+    margin-top: 97px;
+    margin-bottom: 53px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.catalog__content {
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
+}
+
+.content__img {
+    background: #EFEFEF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 263px;
+    height: 300px;
+}
+
+.content-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-name {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    transition: .2s ease;
+}
+
+.card-name:hover {
+    color: #B4436C;
+}
+
+.contacts__tittle {
+    color: #3E8989;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    margin-bottom: 50px;
+}
+
+.contacts__text {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.contacts__desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts__content {
+    display: flex;
+    gap: 388px;
+    align-items: flex-end;
+    margin-bottom: 104px;
+
+    
+}
+
+.connections {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tel {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footer {
+    background: #3E8989;
+    height: 150px;
+}
+
+.f-nav__menu {
+    display: flex;
+    gap: 30px;
+}
+
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 59px;
+    padding-top: 40px;
+}
+
+.rigts {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+}
